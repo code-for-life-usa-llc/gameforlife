@@ -1,0 +1,46 @@
+<html>
+    <head><title>Game For Life-about</title></head>
+    <body>
+        
+    
+<link rel="stylesheet" href="About.css">
+
+<ul>
+    <li><a class="active" href="GameWeb.html">Home</a></li>
+    <li><a href="Trending.html">Trending</a></li>
+    <li><a href="Shop.html">Shop</a></li>
+    <li><a href="SubDisc.html">Subscriptions & Disc</a></li>
+    <li id="logo"><a href="About.html"><img src="image.png" width="40px" height="40px"></a></li>
+  </ul>
+        
+        <h2>What is this website about?</h2>
+        <h1>This website is about the best games to play on your playstation and xbox and where to find the games, how to play the games, who created the games, and more!!!</h1>
+        <img src="ps5 games.jpg" alt="" height="300px"> <img src="xbox games.jpg" alt="" height="300px">
+        <h2>How will this website help me?</h2>
+        <h1>Well have you ever been searching and searching for games to play and how to play them? Well because of this website, you won't have to search anymore beacause all the answers are right here!!! Also for all the people that are trying to get into gaming but dont know how to get or play the games and, where to get the games, this website will definitely help with that :) </h1>
+        <img src="ps4 games.jpg" alt="" height="300px">
+        <img src="psgames" alt="" height="300px">
+      <h2>Who created this website?</h2>
+<button id="button"> Bintou Diallo </button>
+<button id="button"> Alan Lopez</button>
+<button id="button"> Samuel Perez</button>
+<button id="button"> Noelle Iruca</button>
+<section id="app">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="comment">
+        <p v-for="items in item" v-text="items"></p>
+          </div><!--End Comment-->
+          </div><!--End col -->
+          </div><!-- End row -->
+      <div class="row">
+        <div class="col-6">
+      <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+          <button id="button" v-on:click="addItem()" class='primaryContained float-right' type="submit">Comment</button>
+        </div><!-- End col -->
+      </div><!--End Row -->
+    </div><!--End Container -->
+  </section><!-- end App -->
+</body>
+</html>

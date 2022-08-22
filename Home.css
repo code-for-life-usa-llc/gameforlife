@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #4b4b4b;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-image: url(marido2.jpg);
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 254, 254);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  

@@ -1,0 +1,49 @@
+body {
+    font-size: 28px;
+    background-color: aquamarine;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #AF4CA7;
+  }
+  #strategy{
+    color: rgb(213, 16, 16);
+  }
+  #racing{
+    color: dimgrey;
+  }
+  #fantasy{
+    color: rgb(13, 54, 38);
+  }
+  #adventure{
+    color: goldenrod;
+  }
+  
+  #logo{
+    display: flex;
+    float: right;
+    margin-left: auto;
+    border-radius: 50%;
+  }
